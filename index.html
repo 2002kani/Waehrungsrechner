@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Währungsrechner </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <div class="container" id="glass">
+        <header> Währungsrechner </header>
+
+        <form action="#">
+            <div class="betrag">
+                <p> Betrag angeben </p>
+                <input type="number">
+            </div>
+
+            <div class="drop-liste">
+                <div class="von-währung">
+                    <p> Von </p>
+                    <div class="auswahl-box">
+                        <img src="https://flagsapi.com/DE/flat/64.png">
+                        <select>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="material-symbols-outlined">
+                    currency_exchange
+                </div>
+
+                <div class="zu-währung">
+                    <p> Zu </p>
+                    <div class="auswahl-box">
+                        <img src="https://flagsapi.com/DE/flat/64.png">
+                        <select>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ergebnis"></div>
+            <button id="glass"> Umrechnen </button>
+        </form>
+    </div>
+    
+    <script src="index.js"></script>
+    <script src="länder-liste.js"></script>
+</body>
+</html>

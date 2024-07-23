@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    background: url(Bilder/22052644_68143819116766.jpg);
+    background-size: 120%;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    width: 370px;
+    border-radius: 10px;
+    border: 1px solid #afafaf;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+}
+
+#glass{
+    backdrop-filter: blur(5px);
+}
+
+.container header{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.betrag p{
+    font-weight: 400;
+    color: #fff;
+}
+
+.betrag input{
+    border: 1px solid #afafaf;
+    padding: 8px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    margin-top: 5px;
+    width: 100%;
+    color: #fff;
+}
+
+.betrag input:hover{
+    border: 1px solid #fff;
+}
+
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+form .drop-liste{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drop-liste{
+    margin-top: 30px;
+}
+
+.drop-liste p{
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.drop-liste .auswahl-box{
+    display: flex;
+    width: 115px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.05);
+    align-items: center;
+    justify-content: center;
+}
+
+.auswahl-box{
+    border: 1px solid #afafaf;
+    border-radius: 4px;
+}
+
+.auswahl-box select{
+    width: auto;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.auswahl-box img{
+    max-width: 25px;
+}
+
+.auswahl-box:hover{
+    border: 1px solid #fff;
+}
+
+.material-symbols-outlined{
+    margin-top: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.ergebnis{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-weight: 500;
+}
+
+button{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    width: 100%;
+}
+
+button:active{
+    background: radial-gradient(circle, rgb(165, 120, 140) 0%, rgb(117, 149, 184) 100%);
+    transform: scale(1.03);
+}
+
+@media (max-width: 1270px){
+    body{
+        background-size: 120%;
+    }
+}
+
+@media (max-width: 1070px){
+    body{
+        background-size: 255%;
+    }
+}
